@@ -30,7 +30,7 @@ export default defineConfig({
 			// Backwards-compat with Gatsby.
 			env.GATSBY_MEDUSA_BACKEND_URL ||
 			env.GATSBY_STORE_URL ||
-			"https://b2b-server1-production.up.railway.app"
+			"https://b2b-server1-production.up.railway.app:9000"
 		),
 	},
 	optimizeDeps: {
